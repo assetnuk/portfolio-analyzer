@@ -75,7 +75,7 @@ class Portfolio:
     
 if __name__ == '__main__':
     # test for a sample portfolio, assume equal weights
-    tickers = ['TGT','WMT','HD','AAPL', 'GOOGL']
+    tickers = ['TGT', 'WMT', 'HD', 'AAPL', 'GOOGL', 'MSFT']
     
     portfolio = Portfolio(tickers)
     portfolio.get_data()
